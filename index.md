@@ -3,8 +3,6 @@
 <!DOCTYPE html>
 <html>
 
-<h1> test heading to see if it shows up</h1>
-
 <ul class="nav justify-content-end">
   <li class="nav-item">
     <a class="nav-link active" href="#">Active</a>
@@ -24,7 +22,7 @@
     <a class="nav-link disabled" href="#">Disabled</a>
   </li>
 </ul>
-
+<heading> hiya </heading>
 <body>
 </body>
 </html>
