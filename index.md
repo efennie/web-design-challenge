@@ -2,7 +2,6 @@
 
 <!DOCTYPE html>
 <html>
-<body>
 
 <h1> test heading to see if it shows up</h1>
 
@@ -26,5 +25,6 @@
   </li>
 </ul>
 
+<body>
 </body>
 </html>
