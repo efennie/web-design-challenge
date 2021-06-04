@@ -3,7 +3,8 @@
 <!DOCTYPE html>
 <html>
 
-<ul class="nav justify-content-end">
+<nav class="navbar navbar-expand-sm bg-light justify-content-end">
+<ul>
   <li class="nav-item">
     <a class="nav-link active" href="#">Active</a>
   </li>
@@ -22,6 +23,8 @@
     <a class="nav-link disabled" href="#">Disabled</a>
   </li>
 </ul>
+</nav>
+
 <heading> hiya </heading>
 <body>
 </body>
