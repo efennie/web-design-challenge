@@ -1,4 +1,3 @@
-<!-- this is the website landing page -->
 <!DOCTYPE html>
 <html>
 <head>
