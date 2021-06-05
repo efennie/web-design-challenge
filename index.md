@@ -41,7 +41,7 @@ body {
   <a href="#comparison">Comparison</a>
   <a href="#data">Data</a>
 </div>
-<nav class="navbar navbar-expand-sm bg-light justify-content-end">
+<nav class="navbar navbar-expand-sm bg-light">
 <ul>
   <li class="nav-item">
     <a class="nav-link active" href="#">Active</a>
@@ -54,7 +54,7 @@ body {
       <a class="dropdown-item" href="#">Link 3</a>
     </div>
   </li>
-
+</nav>
 </body>
 </html>
 
