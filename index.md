@@ -37,32 +37,23 @@ body {
 <body>
 <div class="topnav">
   <a class="active" href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+  <a href="#plots">Plots</a>
+  <a href="#comparison">Comparison</a>
+  <a href="#data">Data</a>
 </div>
-
 <nav class="navbar navbar-expand-sm bg-light justify-content-end">
 <ul>
   <li class="nav-item">
     <a class="nav-link active" href="#">Active</a>
   </li>
   <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dropdown</a>
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Plots</a>
     <div class="dropdown-menu">
       <a class="dropdown-item" href="#">Link 1</a>
       <a class="dropdown-item" href="#">Link 2</a>
       <a class="dropdown-item" href="#">Link 3</a>
     </div>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#">Disabled</a>
-  </li>
-</ul>
-</nav>
 
 </body>
 </html>
