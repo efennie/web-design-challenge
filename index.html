@@ -44,20 +44,29 @@
   	<div class="col-sm-8" style="background-color:lavender;">
       The purpose of this project was to use API weather data to<br>
       prove that temperature increases as you get closer to the equator.<br>
-      We all learned this growing up but using API weather data we can show the correlation<br> 
-      between temperature and latitude. To gather weather data we used<br>
-      OpenWeatherAPI which allowed us to randomly pull weather data from different cities at<br> 
-      different latitudes to run our analysis. After some data cleansing and wrangling,<br> 
-      I created a dataframe in python to be able to graph my findings.<br>
-      The visualizations are the result of using matplotlib to plot the latitude versus different weather<br> 
-      variables. After plotting latitude versus cloudiness, windspeed, humidity, and max temperature we are<br> 
-      able to confirm our initial hypothesis that temperture does<br>
-      increase towards the equator.</div>
-    <div class="col-sm-4" style="background-color:lightskyblue;">visualizations
-      <img class="img-fluid" src="comparison.html" alt="visualizations">
+      We all learned this growing up but using API weather data we can 
+      show the correlation between temperature and latitude. <br> 
+      To gather weather data we used OpenWeatherAPI which allowed  <br>
+      us to randomly pull weather data from different cities at<br> 
+      different latitudes to run our analysis. After some data cleansing<br> 
+      and wrangling, I created a dataframe in python to be able to<br> 
+      graph my findings. The visualizations are the result<br>
+      of using matplotlib to plot the latitude versus different weather<br> 
+      variables. After plotting latitude versus cloudiness, windspeed, humidity,<br> 
+      and max temperature we are able to confirm (fail to reject) our initial <br>
+      hypothesis that temperture does increase towards the equator.</div>
 
-    </div> 
-
+    <div class="col-sm-4">visualizations</div> 
+    <div class="row">
+      <div class="col-sm-4">
+          <img class="img-fluid" src="./visualizations/lat_v_cloud.png" alt="cloudiness"></div>
+      <div class="col-sm-4">
+          <img class="img-fluid" src="./visualizations/lat_v_humidity.png" alt="humidity"></div>
+      <div class="col-sm-4">
+          <img class="img-fluid" src="./visualizations/lat_v_temp.png" alt="temperature"></div>
+      <div class="col-sm-4">
+          <img class="img-fluid" src="./visualizations/lat_v_wind.png" alt="windspeed"></div>
+    </div>
   </div>
 </div>
 
