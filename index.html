@@ -5,9 +5,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 
@@ -35,19 +37,31 @@
 
   </ul>
 </div>
-<blockquote> 
-  The purpose of this project was to use API weather data to 
-  prove that temperature increases as you get closer to the equator. 
-  We all learned this growing up but using API weather data we can show the correlation 
-  between temperature and latitude. To gather weather data we used
-  OpenWeatherAPI which allowed us to randomly pull weather data from different cities at 
-  different latitudes to run our analysis. After some data cleansing and wrangling, 
-  I created a dataframe in python to be able to graph my findings.
-  The visualizations are the result of using matplotlib to plot the latitude versus different weather 
-  variables. After plotting latitude versus cloudiness, windspeed, humidity, and max temperature we are 
-  able to confirm our initial hypothesis that temperture does
-  increase towards the equator. 
-</blockquote>
+  <!-- Creates the Overall Grid -->
+  <div class="container">
+
+    <!-- First Row -->
+    <div class="row">
+
+      <!-- one column -->
+      <div class="col-md-6">
+        <h1>  
+        The purpose of this project was to use API weather data to 
+        prove that temperature increases as you get closer to the equator. 
+        We all learned this growing up but using API weather data we can show the correlation 
+        between temperature and latitude. To gather weather data we used
+        OpenWeatherAPI which allowed us to randomly pull weather data from different cities at 
+        different latitudes to run our analysis. After some data cleansing and wrangling, 
+        I created a dataframe in python to be able to graph my findings.
+        The visualizations are the result of using matplotlib to plot the latitude versus different weather 
+        variables. After plotting latitude versus cloudiness, windspeed, humidity, and max temperature we are 
+        able to confirm our initial hypothesis that temperture does
+        increase towards the equator. </h1>
+      </div>
+    </div>
+
+
+
 </body>
 </html>
 
